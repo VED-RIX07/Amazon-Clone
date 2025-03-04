@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e1e2e, #2d2d44);
+            color: white;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            background: linear-gradient(145deg, #3a3a4f, #2b2b3c);
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        thead {
+            background: linear-gradient(145deg, #50506a, #3d3d57);
+            color: white;
+            font-size: 18px;
+        }
+
+        th, td {
+            padding: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        tr:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transition: 0.3s;
+        }
+
+        th {
+            box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.2),
+                        inset -2px -2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        td {
+            box-shadow: inset 1px 1px 3px rgba(255, 255, 255, 0.1),
+                        inset -1px -1px 3px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Employees Data</h1>
+    <table>
+        <thead>
+           <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Salary</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Udit</td>
+                <td>Ethical Hacker</td>
+                <td>400k$</td>
+            </tr>
+            <tr>
+                <td>Harsh</td>
+                <td>Ai/Ml Engineer</td>
+                <td>150000$</td>
+            </tr>
+            <tr>
+                <td>Ved</td>
+                <td>Cloud Engineer</td>
+                <td>180000$</td>
+            </tr>
+            <tr>
+                <td>Seenu</td>
+                <td>Software Engineer</td>
+                <td>250000$</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

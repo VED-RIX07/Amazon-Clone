@@ -1,0 +1,12 @@
+*python 
+*numpy
+*pandas
+*mysql
+streamlit
+*matplotlib
+*html
+*css
+*bootstrap
+*django
+rest.api
+*excel
